@@ -1,0 +1,122 @@
+/*     Basic Styles     */
+body {
+	font-family: 'Open Sans', sans-serif;
+	background-color: #E8E5D1;
+	color: #2E2C33;
+}
+
+header {
+	background-color: #473AE8;
+	padding: 50px 0;
+	text-align: center;
+}
+
+h1 {
+	font-size: 4em;
+	font-family: 'Anton', sans-serif;
+	text-transform: uppercase;
+	background-color: #F7FC2D;
+	padding: 50px;
+	display: inline;
+	color: #2E2C33;
+}
+
+h2{
+	font-size: 1.5em;
+	margin: 20px 0;
+}
+
+p {
+	margin-bottom: 20px;
+}
+
+/*     Layout Styles     */
+.container {
+	width: 80%;
+	margin: 0 auto;
+	padding: 20px 0;
+	text-align: center;
+}
+
+.fave-div {
+	float: left;
+	padding: 10px 20px 20px 0;
+}
+
+.clearfix {
+	content: "";
+	clear: both;
+	display: block;
+}
+
+/*     Button Styles     */
+
+button {
+	border: 1px solid #2E2C33;
+    border-radius: 5px;
+    background-color: #00C0FF;
+    color: #fff;
+    margin: 5px;
+}
+
+button:hover {
+    background-color: #2E2C33;
+    color: #F7FC2D;
+}
+
+.faves {
+	font-family: 'Open Sans', sans-serif;
+	text-transform: uppercase;
+	font-size: 1.2em;
+	padding: 20px;
+}
+
+/*     Form Styles     */
+
+.form-div {
+	background-color: #2E2C33;
+	padding: 20px;
+	width: 60%;
+	margin: 40px auto;
+}
+
+.form-div h2 {
+	color: #fff;
+}
+
+#fave-form {
+	padding: 20px 0;
+}
+
+label {
+	padding: 20px 0;
+	font-size: 1.2em;
+	color: #fff;
+	text-transform: uppercase;
+}
+
+input {
+	margin: 10px 0;
+}
+
+#add-fave {
+	border: 1px solid #2E2C33;
+    border-radius: 5px;
+    background-color: #473AE8;
+    color: #fff;
+    margin: 5px;
+    padding: 20px;
+    font-family: 'Open Sans', sans-serif;
+	text-transform: uppercase;
+	font-size: 1.2em;
+	padding: 20px;
+}
+
+#add-fave:hover {
+    background-color: #F7FC2D;
+    color: #473AE8;
+}
+
+
+
+
